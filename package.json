@@ -1,0 +1,43 @@
+{
+  "name": "svelte-backtotop",
+  "description": "A Svelte3 component to help users scroll to the top of the page",
+  "version": "0.0.0",
+  "author": "IOM <npm@greatenemy.com> (https://github.com/GreatEnemy)",
+  "module": "index.mjs",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "bugs": {
+    "url": "https://github.com/GreatEnemy/svelte-backtotop/issues"
+  },
+  "homepage": "https://github.com/GreatEnemy/svelte-backtotop#readme",
+  "devDependencies": {
+    "rollup": "^1.11.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-svelte": "^5.0.0",
+    "svelte": "^3.0.0"
+  },
+  "keywords": [
+    "svelte",
+    "Svelte3",
+    "go up",
+    "scroll top",
+    "scroll to top",
+    "back to top",
+    "return top",
+    "return to top"
+  ],
+  "files": [
+    "src",
+    "index.mjs",
+    "index.js"
+  ],
+  "peerDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greatenemy/svelte-backtotop.git"
+  }
+}
